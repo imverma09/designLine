@@ -1,0 +1,31 @@
+import React from "react";
+import { clientsData } from "./data/main";
+
+function Clients() {
+  return (
+    <>
+      <section className="w-full h-auto bg-gray-300 py-8 sm:h-[60vh] flex flex-col">
+        {/* Header Section */}
+        <div className="w-full h-[30%] flex justify-center items-center">
+          <h1 className="text-3xl font-bold sm:text-6xl text-center my-4">
+            Our Clients
+          </h1>
+        </div>
+        <div className="w-full h-[70%] overflow-hidden">
+          <div className="flex animate-scroll gap-4 md:p-4 justify-center">
+            {clientsData?.map((item, index) => (
+              <div
+                key={index}
+                className="w-40 sm:w-60 h-20 sm:h-60 overflow-hidden bg-white flex justify-center rounded-lg items-center my-4 sm:my-8"
+              >
+                <img src={item.img} className="w-[60%] h-[40%]" alt="" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default Clients;
