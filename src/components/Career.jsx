@@ -70,11 +70,14 @@ function Career() {
         <p className="mt-4 text-gray-700">
         {jobSection.paragraph}
         </p>
+        {/* <div>
+
         <p className="mt-4 font-bold">Click Here for Details</p>
         <button className="mt-2 bg-blue-500 text-white font-bold py-2 px-4 rounded inline-flex items-center">
           <span>HOT JOBS</span>
           <i className="fas fa-arrow-right ml-2"></i>
         </button>
+        </div> */}
         <p className="mt-4">
           {jobSection.emailText}
         </p>

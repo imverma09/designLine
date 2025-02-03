@@ -17,11 +17,14 @@ function Home() {
         className="h-screen pt-20 sm:pt-20 lg:pt-0 relative flex justify-center items-center"
       >
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          <div className="font-light text-gray-400 sm:text-lg">
+          <div className="font-light text-white sm:text-lg">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               {homeSection.heading}
             </h2>
-            <p className="mb-4 line-clamp-4">
+            <span className=" text-lg">
+              {homeSection.test}
+            </span>
+            <span className="mb-4 line-clamp-4 text-lg">
               {" "}
               <Typewriter
                 words={[desc]}
@@ -32,7 +35,7 @@ function Home() {
                 deleteSpeed={50}
                 delaySpeed={1000}
               />
-            </p>
+            </span>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
             <div className="w-full h-[90%] rounded-lg overflow-hidden">

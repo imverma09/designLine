@@ -24,7 +24,7 @@ const Footer = () => {
         <h1 className="text-white font-extrabold">
           <img src="/images/logo1.png" className="w-12 rounded-md" alt="Logo" />
         </h1>
-        <p className="mt-4 text-sm sm:text-base text-white/80 line-clamp-4">
+        <p className="mt-4 text-sm sm:text-base text-white/80 ">
           {footerData.description}
         </p>
         <div className="mt-4 flex gap-4">

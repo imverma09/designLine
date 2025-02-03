@@ -20,7 +20,7 @@ function ProjectDetailPage() {
           </h2>
         </div>
       </div>
-      <Service />
+      {/* <Service /> */}
       <Project />
       <Footer />
     </>

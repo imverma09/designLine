@@ -1,4 +1,4 @@
-import { HiH1 } from "react-icons/hi2";
+
 
 export const navData = [
   {
@@ -31,9 +31,10 @@ export const homeSection = {
   owner1: "/images/founder1.jpg",
   owner2: "/images/founder2.jpg",
   heading: "Design Line Consultancy Services Private Limited",
-  description: `is a fast
+  test : `is a fast
 growing Civil Engineering Consultancy Company for Highway
-and Structural Design, Building Design, Safety Engineers, Proof
+and Structural Design` ,
+  description: ` Building Design, Safety Engineers, Proof
 Checking, Quantity Estimation, Survey, Earthwork optimization,
 Design Consultation, PMC, Construction Supervision and training.`,
 };
@@ -59,8 +60,7 @@ export const serviceData = [
   {
     heading: "Traffic Studies & Transportation Engineering",
     description:
-      "Expert services focused on analyzing traffic patterns, forecasting demand, and designing transportation systems to optimize mobility, safety, and efficiency. This includes conducting traffic impact assessments, developing traffic management plans, and implementing innovative engineering solutions for sustainable transportation infrastructure.",
-  },
+      "Expert services focused on analyzing traffic patterns, forecasting demand, and designing transportation systems to optimize mobility, safety, and efficiency. This includes conducting traffic impact assessments, developing traffic management plans,"}
 ];
 
 export const SvgIcon1 = ({
@@ -293,7 +293,7 @@ export const LocationIcon = () => (
 
  
 export const careerPage = {
-  img : "https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=600",
+  img : "/images/team.jpeg",
   heading : "Life at Design line Group",
   paragraph1 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum delectus iste deleniti quod, qui iusto, illo eum dolore ducimus autem quam iure expedita id quas! Libero quo maiores explicabo hic?",
   paragraph2 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum delectus iste deleniti quod, qui iusto, illo eum dolore ducimus autem quam iure expedita id quas! Libero quo maiores explicabo hic?"
@@ -315,13 +315,13 @@ export const careerPage = {
     "Opportunity to work in multidisciplinary tasks.",
     "Offer a wide variety of training & development opportunities so that employees stay relevant, updated and build their credentials and"
 ],
-img : "https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+img : "/images/team2.webp"
  }
 
  export const jobSection = {
    heading : "Openings at Design Line" , 
    paragraph : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo pariatur nihil cupiditate amet explicabo voluptatibus doloribus harum obcaecati eius! Magnam corporis nihil reiciendis sed dolore, beatae quas? Nemo, non!",
    emailText : "You are welcome to send your resume to following email:",
-   email : "1234@gmail.com",
+   email : "info@dlcsgroup.in",
    text : "We will respond to you once there is a suitable opening."
  }

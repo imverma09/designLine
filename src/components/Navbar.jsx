@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 w-full p-4 flex items-center justify-between z-50 md:hidden">
         <div className="flex items-center">
           <img
-            src="../images/logo1.png"
+            src="/favicon.png"
             alt="Logo"
             className="h-10 rounded-md"
           />
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-full">
           <div className="hidden md:block">
             <img
-              src="../images/logo1.png"
+              src="/logo.png"
               alt="Logo"
               className={`rounded-lg transition-all duration-500 ${
                 isScrolled ? "h-12" : "h-16"

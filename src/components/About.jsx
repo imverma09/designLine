@@ -1,23 +1,158 @@
-import React from "react";
-import Project from "./Project";
 import Footer from "./Footer";
+import React from 'react';
+// import { Helmet } from 'react-helmet';
 
-function About() {
+// Placeholder images - replace with actual images
+// import teamImage from '/images/construction-team.jpeg';
+// import ceoImage from './images/ceo.jpg';
+// import architectImage from './images/architect.jpg';
+// import engineerImage from './images/engineer.jpg';
+// import projectManagerImage from './images/project-manager.jpg';
+
+const TeamMemberCard = ({ name, role, image, description }) => (
+  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+    <img src={image} alt={name} className="w-full h-64 object-cover" />
+    <div className="p-6">
+      <h3 className="text-xl font-bold text-gray-800">{name}</h3>
+      <p className="text-blue-600 mb-2">{role}</p>
+      <p className="text-gray-600">{description}</p>
+    </div>
+  </div>
+);
+
+const About = () => {
+  const teamMembers = [
+    {
+      name: "John Carter",
+      role: "CEO & Founder",
+      image: "/images/founder1.jpg",
+      description: "20+ years experience in construction management"
+    },
+    {
+      name: "Sarah Johnson",
+      role: "Lead Architect",
+      image: "/images/founder1.jpg",
+      description: "Award-winning architectural designer"
+    },
+    {
+      name: "Michael Chen",
+      role: "Structural Engineer",
+      image: "/images/founder1.jpg",
+      description: "Specialist in sustainable building practices"
+    },
+    {
+      name: "Emma Wilson",
+      role: "Project Manager",
+      image: "/images/founder1.jpg",
+      description: "Expert in large-scale project coordination"
+    }
+  ];
+
   return (
-    <>
-      <section className="w-full flex justify-center items-center">
-        <div className="aboutDiv w-full h-[60vh] flex justify-left items-center">
-          <div>
-            <h1 className="text-white text-6xl lg:text-[10rem] font-bold ml-8 md:ml-16 mt-40">
-              Abo<span className="text-blue-500">ut</span>
-            </h1>
+    <div className="min-h-screen bg-gray-50">
+      {/* <Helmet> */}
+        <title>About Us - Rode Construction</title>
+      {/* </Helmet> */}
+
+      {/* Hero Section */}
+      <div className="relative h-96 flex items-center justify-center">
+        <div className="absolute inset-0">
+          <img 
+            src={'/images/construction-team.jpeg'} 
+            alt="Construction Team" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black opacity-40"></div>
+        </div>
+        <div className="relative text-center text-white max-w-4xl px-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Building the Future Together</h1>
+          <p className="text-xl md:text-2xl">30 Years of Excellence in Construction</p>
+        </div>
+      </div>
+
+      {/* About Section */}
+      <section className="py-16 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <p className="text-gray-600 mb-4">
+                Since 1993, Rode Construction has been at the forefront of innovative building solutions. 
+                What started as a small family business has grown into one of the most trusted names 
+                in commercial and residential construction.
+              </p>
+              <p className="text-gray-600 mb-8">
+                We combine traditional craftsmanship with cutting-edge technology to deliver projects 
+                that stand the test of time while meeting modern sustainability standards.
+              </p>
+              <ul className="space-y-2 text-gray-600">
+                <li>✓ 500+ Completed Projects</li>
+                <li>✓ LEED Certified Professionals</li>
+                <li>✓ 24/7 Project Support</li>
+                <li>✓ 5-Year Workmanship Guarantee</li>
+              </ul>
+            </div>
+            <img 
+              src='/images/construction-site.jpeg'
+              alt="Construction Site" 
+              className="rounded-lg shadow-xl"
+            />
           </div>
         </div>
       </section>
-      <Project />
-      <Footer />
-    </>
+
+      {/* Team Section */}
+      <section className="py-16 bg-white px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {teamMembers.map((member, index) => (
+              <TeamMemberCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-16 bg-blue-900 text-white">
+        <div className="max-w-6xl mx-auto px-4 md:px-8">
+          <div className="grid md:grid-cols-4 gap-8 text-center">
+            <div className="p-4">
+              <div className="text-4xl font-bold mb-2">30+</div>
+              <div className="text-gray-300">Years Experience</div>
+            </div>
+            <div className="p-4">
+              <div className="text-4xl font-bold mb-2">500+</div>
+              <div className="text-gray-300">Projects Completed</div>
+            </div>
+            <div className="p-4">
+              <div className="text-4xl font-bold mb-2">250+</div>
+              <div className="text-gray-300">Skilled Workers</div>
+            </div>
+            <div className="p-4">
+              <div className="text-4xl font-bold mb-2">98%</div>
+              <div className="text-gray-300">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-gray-100">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h2 className="text-3xl font-bold mb-6">Ready to Build Your Vision?</h2>
+          <p className="text-gray-600 mb-8">
+            Let's discuss how we can bring your construction project to life with expertise and care.
+          </p>
+          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            Get in Touch
+          </button>
+        </div>
+      </section>
+      <Footer/>
+    </div>
+
   );
-}
+};
 
 export default About;
