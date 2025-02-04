@@ -11,6 +11,7 @@ function Blog() {
         </div>
       </div>
       <Service />
+      <div className='p-4'> </div>
       <Footer />
     </section>
   )

@@ -1,3 +1,4 @@
+import Achievement from "./Achievement";
 import Footer from "./Footer";
 import React from 'react';
 // import { Helmet } from 'react-helmet';
@@ -114,29 +115,7 @@ const About = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-blue-900 text-white">
-        <div className="max-w-6xl mx-auto px-4 md:px-8">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="p-4">
-              <div className="text-4xl font-bold mb-2">30+</div>
-              <div className="text-gray-300">Years Experience</div>
-            </div>
-            <div className="p-4">
-              <div className="text-4xl font-bold mb-2">500+</div>
-              <div className="text-gray-300">Projects Completed</div>
-            </div>
-            <div className="p-4">
-              <div className="text-4xl font-bold mb-2">250+</div>
-              <div className="text-gray-300">Skilled Workers</div>
-            </div>
-            <div className="p-4">
-              <div className="text-4xl font-bold mb-2">98%</div>
-              <div className="text-gray-300">Client Satisfaction</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Achievement></Achievement>
       {/* CTA Section */}
       <section className="py-16 bg-gray-100">
         <div className="max-w-4xl mx-auto text-center px-4">

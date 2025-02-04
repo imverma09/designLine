@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import ProjectDetailPage from "./components/ProjectDetailPage";
 import Career from "./components/Career";
 import History from "./components/History";
+import ProjectDetail from "./components/ProjectDetail";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<Career />} />
         <Route path="/history" element={<History />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
       </Routes>
       </BrowserRouter>
     </div>

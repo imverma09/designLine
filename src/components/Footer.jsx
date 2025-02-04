@@ -22,7 +22,8 @@ const Footer = () => {
       {/* Logo and Description Section */}
       <div className="md:w-[316px]">
         <h1 className="text-white font-extrabold">
-          <img src="/images/logo1.png" className="w-12 rounded-md" alt="Logo" />
+          {/* <img src="/images/logo1.png" className="w-12 rounded-md" alt="Logo" /> */}
+          Design Line Consultancy Services Private Limited 
         </h1>
         <p className="mt-4 text-sm sm:text-base text-white/80 ">
           {footerData.description}

@@ -21,13 +21,12 @@ function Home() {
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               {homeSection.heading}
             </h2>
-            <span className=" text-lg">
-              {homeSection.test}
-            </span>
-            <span className="mb-4 line-clamp-4 text-lg">
+            <p className=" text-lg">
+              {homeSection.test},
+            <span className="mb-4 text-2xl font-bold text-blue-500">
               {" "}
               <Typewriter
-                words={[desc]}
+                words={[...desc]}
                 loop={0}
                 cursor
                 cursorStyle="|"
@@ -36,6 +35,7 @@ function Home() {
                 delaySpeed={1000}
               />
             </span>
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
             <div className="w-full h-[90%] rounded-lg overflow-hidden">

@@ -34,9 +34,8 @@ export const homeSection = {
   test : `is a fast
 growing Civil Engineering Consultancy Company for Highway
 and Structural Design` ,
-  description: ` Building Design, Safety Engineers, Proof
-Checking, Quantity Estimation, Survey, Earthwork optimization,
-Design Consultation, PMC, Construction Supervision and training.`,
+  description: ["Building Design", "Safety Engineers"," ProofChecking", "Quantity Estimation", "Survey", "Earthwork optimization",
+"Design Consultation", "PMC", "Construction Supervision and training"],
 };
 
 export const sliderData = {
@@ -48,16 +47,22 @@ export const sliderData = {
 
 export const serviceData = [
   {
+    id : 1,
+    img : "/images/rode11.webp",
     heading: "Road Network Design & Supervision Consultancy",
     description:
-      "Comprehensive professional services focused on the planning, design, and oversight of road infrastructure projects, ensuring efficient layouts, sustainable solutions, and adherence to quality and safety standards throughout the lifecycle of the project.",
+    "Comprehensive professional services focused on the planning, design, and oversight of road infrastructure projects, ensuring efficient layouts, sustainable solutions, and adherence to quality and safety standards throughout the lifecycle of the project.",
   },
   {
+    id : 2,
+    img : "/images/rodeDesign.jpeg",
     heading: "Bridge/ROB/Flyover Design",
     description:
-      "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
   },
   {
+    id : 3,
+    img : "/images/rodeDesign.jpeg",
     heading: "Traffic Studies & Transportation Engineering",
     description:
       "Expert services focused on analyzing traffic patterns, forecasting demand, and designing transportation systems to optimize mobility, safety, and efficiency. This includes conducting traffic impact assessments, developing traffic management plans,"}
@@ -204,6 +209,9 @@ export const projectData = [
 
 export const clientsData = [
   {
+    img: "/images/pwd.jpg",
+  },
+  {
     img: "/images/client1.png",
   },
   {
@@ -230,7 +238,7 @@ export const footerData = {
   description: `Design Line Consultancy Services Private Limited has a dedicated team of Professional Staff with Immense knowledge of Indian Standards in Field of Designing, Planning, Management, Testing and Supervision. DLCSPL is a Multi-disciplinary Consultancy group of professionals providing complete Consultancy Services for various infrastructure projects in Highways, Bridges, and Irrigation. The firm provides a variety of solutions covering planning, design and engineering, consulting as well as support construction by way of state-of-the-art PMC services.`,
   instruction:
     " © Copyright 2025, All Rights Reserved by Design Line . PVT. LTD",
-  contact: "+91 7015511801",
+  contact: "+91 81684 44506",
   email: "info@dlcsgroup.in",
   adress: `DSS71, Huda Market, Sector 15A, Hisar (125001)`,
 };
