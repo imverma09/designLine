@@ -1,15 +1,7 @@
 import Achievement from "./Achievement";
 import Footer from "./Footer";
 import React from 'react';
-// import { Helmet } from 'react-helmet';
-
-// Placeholder images - replace with actual images
-// import teamImage from '/images/construction-team.jpeg';
-// import ceoImage from './images/ceo.jpg';
-// import architectImage from './images/architect.jpg';
-// import engineerImage from './images/engineer.jpg';
-// import projectManagerImage from './images/project-manager.jpg';
-
+import { teamMembers } from "./data/main";
 const TeamMemberCard = ({ name, role, image, description }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
     <img src={image} alt={name} className="w-full h-64 object-cover" />
@@ -22,39 +14,11 @@ const TeamMemberCard = ({ name, role, image, description }) => (
 );
 
 const About = () => {
-  const teamMembers = [
-    {
-      name: "John Carter",
-      role: "CEO & Founder",
-      image: "/images/founder1.jpg",
-      description: "20+ years experience in construction management"
-    },
-    {
-      name: "Sarah Johnson",
-      role: "Lead Architect",
-      image: "/images/founder1.jpg",
-      description: "Award-winning architectural designer"
-    },
-    {
-      name: "Michael Chen",
-      role: "Structural Engineer",
-      image: "/images/founder1.jpg",
-      description: "Specialist in sustainable building practices"
-    },
-    {
-      name: "Emma Wilson",
-      role: "Project Manager",
-      image: "/images/founder1.jpg",
-      description: "Expert in large-scale project coordination"
-    }
-  ];
+  
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* <Helmet> */}
-        <title>About Us - Rode Construction</title>
-      {/* </Helmet> */}
-
+  
       {/* Hero Section */}
       <div className="relative h-96 flex items-center justify-center">
         <div className="absolute inset-0">
@@ -67,7 +31,7 @@ const About = () => {
         </div>
         <div className="relative text-center text-white max-w-4xl px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Building the Future Together</h1>
-          <p className="text-xl md:text-2xl">30 Years of Excellence in Construction</p>
+          <p className="text-xl md:text-2xl">30 Years of Excellence in Consultancy</p>
         </div>
       </div>
 

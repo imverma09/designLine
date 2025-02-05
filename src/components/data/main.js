@@ -1,4 +1,9 @@
-
+import {
+  FaBuilding,
+  FaHardHat,
+  FaCalendarAlt,
+  FaDollarSign,
+} from "react-icons/fa";
 
 export const navData = [
   {
@@ -333,3 +338,77 @@ img : "/images/team2.webp"
    email : "info@dlcsgroup.in",
    text : "We will respond to you once there is a suitable opening."
  }
+
+
+
+ export const features = [
+  { icon: <FaBuilding />, title: "Project Size", value: "45,000 sq.ft" },
+  { icon: <FaHardHat />, title: "Construction Type", value: "Commercial" },
+  { icon: <FaCalendarAlt />, title: "Duration", value: "18 Months" },
+  { icon: <FaDollarSign />, title: "Project Value", value: "$12.5M" },
+]; 
+// export const teamMembers = [
+//   {
+//     name: "Sarah Johnson",
+//     role: "Lead Architect",
+//     description: "15 years experience in commercial design",
+//     imgSrc: "architect",
+//   },
+//   {
+//       name: "Michael Chen",
+//       role: "Project Manager",
+//       description: "Certified PMP with 20+ projects completed",
+//       imgSrc: "architect",
+      
+//   },
+//   {
+//       name: "Emma Wilson",
+//       role: "Structural Engineer",
+//       description: "Specialist in high-rise constructions",
+//       imgSrc: "architect",
+//   },
+// ]; 
+export const textProject = [
+  "Energy-efficient glass facade system",
+  "Smart building management system",
+  "Earthquake-resistant structure",
+  "Green roof and solar panel integration",
+];
+export const teamMembers = [
+  {
+    name: "Satbir Singh Boora",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "20+ years experience in construction management"
+  },
+  {
+    name: "Rajesh Beniwal",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "Award-winning architectural designer"
+  },
+  {
+    name: "Mukesh Kumar",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "Specialist in sustainable building practices"
+  },
+  {
+    name: "Abhishek Boora",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "Expert in large-scale project coordination"
+  },
+  {
+    name: "BIR Singh Sihag",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "Expert in large-scale project coordination"
+  },
+  {
+    name: "Satinder Singh",
+    role: "Director",
+    image: "/images/founder1.jpg",
+    description: "Expert in large-scale project coordination"
+  },
+];
