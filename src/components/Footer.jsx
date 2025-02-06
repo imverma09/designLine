@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { footerData } from "./data/main";
 import { FaFacebook } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -8,12 +8,11 @@ import { FiYoutube } from "react-icons/fi";
 import { FaLocationDot } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhoneAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { navData } from "./data/main";
-import { useNavigate } from "react-router-dom";
-
-
+import { Link, useNavigate } from "react-router-dom";
+import { jobSection } from "./data/main";
 const Footer = () => {
+ const [email, setEmail]= useState('')
   const navigate = useNavigate();
   return (
     <div className="bg-gray-900 pt-10 sm:pt-20">
@@ -138,10 +137,11 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Enter email address"
+              onChange={(e)=>{setEmail(e.target.value)}}
               className="bg-transparent border-b-2 text-white text-sm outline-none placeholder-white"
             />
           </div>
-          <button type="submit" className="px-4 py-1 hover:bg-blue-600 bg-blue-500 my-4 text-white rounded-sm text-sm font-semibold">Send</button>
+          <a href={`mailto:${jobSection.email}`}type="submit" className="px-4 py-1  hover:bg-blue-600 bg-blue-500 my-4 text-white rounded-sm text-sm font-semibold">Send</a>
         </div>
       </div>
     </div>

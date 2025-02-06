@@ -1,7 +1,7 @@
 import Achievement from "./Achievement";
 import Footer from "./Footer";
 import React from 'react';
-import { teamMembers } from "./data/main";
+import { Link } from "react-router-dom";
 const TeamMemberCard = ({ name, role, image, description }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
     <img src={image} alt={name} className="w-full h-64 object-cover" />
@@ -67,7 +67,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-white px-4 md:px-8">
+      {/* <section className="py-16 bg-white px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -76,7 +76,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats Section */}
       <Achievement></Achievement>
@@ -87,9 +87,9 @@ const About = () => {
           <p className="text-gray-600 mb-8">
             Let's discuss how we can bring your construction project to life with expertise and care.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+          <Link to={'/contact'} className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
             Get in Touch
-          </button>
+          </Link>
         </div>
       </section>
       <Footer/>

@@ -5,8 +5,8 @@ function History() {
     {
       id: 1,
       position: "right",
-      title: "Lorem Ipsum",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "Highway & Structural Design",
+      description: "Innovative and efficient infrastructure solutions for roads, bridges, and transportation networks.",
       color: "bgColor1",
       textColor: "text-gray-800",
       img : "/images/blog.jpg",
@@ -15,8 +15,8 @@ function History() {
     {
       id: 2,
       position: "left",
-      title: "Lorem Ipsum",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "Building Design & Safety Engineering",
+      description: "Ensuring robust, sustainable, and safe architectural designs that meet Indian standards.",
       color: "bg-red-400",
       textColor: "text-white",
       img : "/images/blog.jpg",
@@ -25,8 +25,8 @@ function History() {
     {
       id: 3,
       position: "right",
-      title: "Lorem Ipsum",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "Proof Checking & Quantity Estimation ",
+      description: "Precise evaluation and verification of engineering designs and material requirements.",
       color: "bgColor1",
       textColor: "text-gray-800",
       img : "/images/blog.jpg",
@@ -35,8 +35,8 @@ function History() {
     {
       id: 4,
       position: "left",
-      title: "Lorem Ipsum",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "Surveying & Earthwork Optimization ",
+      description: "Advanced techniques for land assessment and cost-effective resource utilization.",
       color: "bg-red-400",
       textColor: "text-white",
       img : "/images/blog.jpg",
@@ -45,14 +45,24 @@ function History() {
     {
       id: 5,
       position: "right",
-      title: "Lorem Ipsum",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "Project Management & Construction Supervision ",
+      description: "End-to-end oversight to ensure project efficiency, timely execution, and quality control.",
       color: "bgColor1",
       textColor: "text-gray-800",
       img : "/images/blog.jpg",
       date : 2002,
     
-    }
+    },
+    {
+      id: 6,
+      position: "left",
+      title: "Training & Consultation",
+      description: "Empowering engineers and professionals with specialized knowledge in civil engineering and project execution",
+      color: "bg-red-400",
+      textColor: "text-white",
+      img : "/images/blog.jpg",
+      date : 2002,
+    },
   ];
   return (
     <>
@@ -68,14 +78,15 @@ function History() {
       <div className="max-w-4xl mx-auto p-6">
                     <h1 className="text-4xl font-bold text-gray-700 mb-6">History</h1>
                     <p className="mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni repellendus architecto numquam dolore ipsum omnis facere dolores! Repellendus dolorum sunt laudantium ipsum voluptas accusantium, corrupti voluptatem. Maxime, dolorem esse.
+                    From Vision to Excellence
+Design Line Consultancy Services Private Limited (DLCSPL) is a testament to dedication, innovation, and engineering excellence. Our journey began in 2017 in Gurugram, Haryana, under the name Design Line Consultancy Services, with a clear vision—to provide cutting-edge solutions in civil engineering consultancy, structural design, and infrastructure development. What started as a small yet ambitious firm quickly gained recognition for its commitment to quality, precision, and client satisfaction.
+
                     </p>
                     <p className="mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime modi at praesentium esse deleniti expedita, nemo ipsum quod. Consequuntur, dolor! Optio ipsam rem et non numquam illum, error necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cupiditate laudantium. Aut unde voluptates nesciunt corrupti neque aspernatur eaque! Rem aliquid voluptates facilis dicta temporibus dolor voluptatem magni officiis amet.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime modi at praesentium esse deleniti expedita, nemo ipsum quod. Consequuntur, dolor! Optio ipsam rem et non numquam illum, error necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cupiditate laudantium. Aut unde voluptates nesciunt corrupti neque aspernatur eaque! Rem aliquid voluptates facilis dicta temporibus dolor voluptatem magni officiis amet.
+                    As our expertise grew, so did our aspirations. Recognizing the need for a broader platform to serve the evolving demands of the industry, we expanded and, in 2021, established ourselves as Design Line Consultancy Services Private Limited in Hisar, Haryana. This transformation marked a significant milestone, positioning DLCSPL as a leading player in the field of highways, bridges, building design, proof checking, quantity estimation, surveying, and project management consultancy (PMC).
                     </p>
                     <p className="mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime modi at praesentium esse deleniti expedita, nemo ipsum quod. Consequuntur, dolor! Optio ipsam rem et non numquam illum, error necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cupiditate laudantium. Aut unde voluptates nesciunt corrupti neque aspernatur eaque! Rem aliquid voluptates facilis dicta temporibus dolor voluptatem magni officiis amet.
+                    With a strong foundation and an expanding portfolio of successful projects, DLCSPL continues to contribute to the growth and modernization of India's infrastructure. Our journey is defined by trust, integrity, and excellence, and as we move forward, we remain committed to shaping the future of engineering with visionary solutions and unwavering dedication
                     </p>
                     <h2 className="text-2xl font-bold text-gray-700 mt-8">Key Dates in Our History</h2>
                 </div>

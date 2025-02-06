@@ -195,18 +195,18 @@ export const SvgIcon4 = ({
 export const projectData = [
   {
     image: "/images/project1.png",
-    heading: `SDE , Provici, Sub. Division, No. II, PWD B&R Br. Bahadurgarh`,
+    heading: ` PWD B&R Br. Bahadurgarh`,
     description: `Construction of Northern Bypass of Bahadurgarh town on the banks of West Jua Drain from Kharkhoda Assaudha Road to Nahra Bahadurgarh Road- 18 KM`,
   },
   {
     image: "/images/project2.png",
-    heading: "SDE , Prov. Sub Div. , PWD B&R br. adampur ",
+    heading: " PWD B&R Br. Adampur ",
     description:
       "provding post-facto sanction for carrying out the work of online submission of  forest case for 4-lanning of Agroha to Adampur road (SH-10) from RD 106.830 to 107.330 in  Hisar Distt (rd 47094).",
   },
   {
     image: "/images/project3.png",
-    heading: "SDE , Provici, Sub. Division, No. 9, PWD B&R Br. Rohtak",
+    heading: " PWD B&R Br. Rohtak",
     description:
       "Quotation for consultancy services for the preparation  of detailed  project  report of consutruction of 7.0 M wide road along eleveted railway track from sector 6  to railway station  in Rohtak. ",
   },

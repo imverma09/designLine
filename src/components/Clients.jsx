@@ -12,7 +12,7 @@ function Clients() {
           </h1>
         </div>
         <div className="w-full">
-          <div className="grid gap-3 grid-cols-4 p-4 justify-center">
+          <div className="grid gap-3 grid-cols-2 md:grid-cols-4 p-4 justify-center">
             {clientsData?.map((item, index) => (
               <div
                 key={index}
