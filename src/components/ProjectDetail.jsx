@@ -1,18 +1,13 @@
-import React from "react";
+import React ,{useEffect ,useState} from "react";
 import { useParams } from "react-router-dom";
-import { serviceData , features , teamMembers , textProject} from "./data/main";
+import { serviceData , features , Challenges , textProject} from "./data/main";
 import Footer from "./Footer";
 const ProjectDetail = () => {
   const params = useParams();
-  const newData = serviceData.filter((d) => d.id === Number(params.id))[0];
-   const Challenges = {
-     heading : " Challenges & Solutions",
-     desc : `Achieved LEED Platinum certification through use of recycled
-                    materials and renewable energy systems.`,
-     desc2 : ` Implemented innovative foundation techniques to work within
-                    tight urban space while maintaining adjacent building
-                    integrity.`          
-   }
+  const newData = serviceData.filter((d) => d.id === Number(params.id))[0]; 
+  useEffect(() => {
+    window.scrollTo(0,0)
+   }, []);
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

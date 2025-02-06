@@ -308,13 +308,13 @@ export const LocationIcon = () => (
 export const careerPage = {
   img : "/images/team.jpeg",
   heading : "Life at Design line Group",
-  paragraph1 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum delectus iste deleniti quod, qui iusto, illo eum dolore ducimus autem quam iure expedita id quas! Libero quo maiores explicabo hic?",
-  paragraph2 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum delectus iste deleniti quod, qui iusto, illo eum dolore ducimus autem quam iure expedita id quas! Libero quo maiores explicabo hic?"
+  paragraph1 : "At Design Line Consultancy Services Private Limited, we believe that our people are our greatest asset. We are always looking for passionate, skilled, and driven professionals to join our team and contribute to innovative solutions in road network design and supervision consultancy.",
+  paragraph2 : "Explore exciting career opportunities with us! If you're ready to make an impact, check out our latest job openings or submit your resume at [your email or application link. Join us in building smarter, sustainable, and well-planned infrastructure for the future!"
 }
 
  export const benefitsSection = {
   heading : "Benefits at Design line Group",
-  paragraph : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus optio itaque odio dicta repudiandae debitis sequi porro exercitationem, eum molestiae, amet consectetur ex. Praesentium velit ipsa consequuntur eum iste explicabo.",
+  paragraph : "At Design Line Consultancy Services Private Limited, we value our employees and are committed to providing a rewarding and supportive work environment. Here are some of the key benefits of joining our team:",
   benefitsHeading :"Design line is a great place to work as it enables its employees to benefits like:",
   benefits : [
     "Well-defined talent management system for attracting and retaining talent.",
@@ -333,7 +333,7 @@ img : "/images/team2.webp"
 
  export const jobSection = {
    heading : "Openings at Design Line" , 
-   paragraph : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo pariatur nihil cupiditate amet explicabo voluptatibus doloribus harum obcaecati eius! Magnam corporis nihil reiciendis sed dolore, beatae quas? Nemo, non!",
+   paragraph : "At Design Line Consultancy Services Private Limited, we are always looking for talented and passionate professionals to join our team. If you’re ready to take your career to the next level in the road network design and supervision consultancy sector, explore our current job opportunities below.",
    emailText : "You are welcome to send your resume to following email:",
    email : "info@dlcsgroup.in",
    text : "We will respond to you once there is a suitable opening."
@@ -412,3 +412,12 @@ export const teamMembers = [
     description: "Expert in large-scale project coordination"
   },
 ];
+
+ export const Challenges = {
+  heading : " Challenges & Solutions",
+  desc : `Achieved LEED Platinum certification through use of recycled
+                 materials and renewable energy systems.`,
+  desc2 : ` Implemented innovative foundation techniques to work within
+                 tight urban space while maintaining adjacent building
+                 integrity.`          
+}
