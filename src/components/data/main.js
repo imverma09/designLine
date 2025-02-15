@@ -52,25 +52,77 @@ export const sliderData = {
 
 export const serviceData = [
   {
-    id : 1,
-    img : "/images/rode11.webp",
-    heading: "Road Network Design & Supervision Consultancy",
-    description:
-    "Comprehensive professional services focused on the planning, design, and oversight of road infrastructure projects, ensuring efficient layouts, sustainable solutions, and adherence to quality and safety standards throughout the lifecycle of the project.",
+    id: 1,
+    img: "/images/feasibilityStudies.jpeg",
+    heading: "Feasibility Studies",
+    description: "Comprehensive evaluations to determine the viability of projects, including economic, technical, and legal assessments to ensure informed decision-making."
   },
   {
-    id : 2,
-    img : "/images/rodeDesign.jpeg",
-    heading: "Bridge/ROB/Flyover Design",
-    description:
-    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+    id: 2,
+    img: "/images/constructionManagement.jpeg",
+    heading: "Construction Management",
+    description: "Expert oversight of construction processes, ensuring projects are completed on time, within budget, and to the highest quality standards."
   },
   {
-    id : 3,
-    img : "/images/rodeDesign.jpeg",
-    heading: "Traffic Studies & Transportation Engineering",
-    description:
-      "Expert services focused on analyzing traffic patterns, forecasting demand, and designing transportation systems to optimize mobility, safety, and efficiency. This includes conducting traffic impact assessments, developing traffic management plans,"}
+    id: 3,
+    img: "/images/projectManagement.jpeg",
+    heading: "Project Management",
+    description: "Planning, executing, and closing projects effectively, ensuring all objectives are met while managing resources and stakeholder expectations."
+  },
+  {
+    id: 4,
+    img: "/images/preliminaryFinalDesign.jpeg",
+    heading: "Preliminary & Final Design",
+    description: "Development of initial concepts and detailed designs, ensuring alignment with project goals and regulatory requirements."
+  },
+  {
+    id: 5,
+    img: "/images/detailedProjectReport.jpeg",
+    heading: "Detailed Project Report (DPR)",
+    description: "Comprehensive documentation outlining project scope, objectives, methodologies, and execution plans for stakeholder review and approval."
+  },
+  {
+    id: 6,
+    img: "/images/detailDesign.jpeg",
+    heading: "Detail Design",
+    description: "Creation of detailed specifications and drawings, ensuring all aspects of the project are thoroughly planned and documented."
+  },
+  {
+    id: 7,
+    img: "/images/proofChecking.jpeg",
+    heading: "Proof Checking",
+    description: "Verification of designs and calculations to ensure accuracy, compliance with standards, and mitigation of potential risks."
+  },
+  {
+    id: 8,
+    img: "/images/roadSafetyAudits.jpeg",
+    heading: "Road Safety Audits",
+    description: "Evaluations of road designs and conditions aimed at enhancing safety for all users, identifying potential hazards and recommending improvements."
+  },
+  {
+    id: 9,
+    img: "/images/pedestrianBridges.jpeg",
+    heading: "Pedestrian Bridges",
+    description: "Design and assessment of pedestrian bridge structures, focusing on safety, accessibility, and integration with surrounding environments."
+  },
+  {
+    id: 10,
+    img: "/images/buildingDesign.jpeg",
+    heading: "Building Design",
+    description: "Architectural and structural design services for various types of buildings, ensuring functionality, safety, and aesthetic appeal."
+  },
+  {
+    id: 11,
+    img: "/images/roadEvaluation.jpeg",
+    heading: "Road Evaluation",
+    description: "Comprehensive assessments of road conditions, including pavement strength, traffic counts, and structural evaluations to inform maintenance and improvements."
+  },
+  {
+    id: 12,
+    img: "/images/environmentalStudies.jpeg",
+    heading: "Environmental & Social Studies",
+    description: "Impact assessments and proposals for forest clearance, ensuring compliance with environmental regulations and promoting sustainable development."
+  }
 ];
 
 export const SvgIcon1 = ({
@@ -244,7 +296,7 @@ export const footerData = {
   instruction:
     " © Copyright 2025, All Rights Reserved by Design Line . PVT. LTD",
   contact: "+91 81684 44506",
-  email: "info@dlcsgroup.in",
+  email: "tech.designlinepvtltd@gmail.com",
   adress: `DSS71, Huda Market, Sector 15A, Hisar (125001)`,
 };
 
@@ -309,7 +361,7 @@ export const careerPage = {
   img : "/images/team.jpeg",
   heading : "Life at Design line Group",
   paragraph1 : "At Design Line Consultancy Services Private Limited, we believe that our people are our greatest asset. We are always looking for passionate, skilled, and driven professionals to join our team and contribute to innovative solutions in road network design and supervision consultancy.",
-  paragraph2 : "Explore exciting career opportunities with us! If you're ready to make an impact, check out our latest job openings or submit your resume at [your email or application link. Join us in building smarter, sustainable, and well-planned infrastructure for the future!"
+  paragraph2 : "Explore exciting career opportunities with us! If you're ready to make an impact, check out our latest job openings or submit your resume at your email or application link. Join us in building smarter, sustainable, and well-planned infrastructure for the future!"
 }
 
  export const benefitsSection = {
@@ -335,7 +387,7 @@ img : "/images/team2.webp"
    heading : "Openings at Design Line" , 
    paragraph : "At Design Line Consultancy Services Private Limited, we are always looking for talented and passionate professionals to join our team. If you’re ready to take your career to the next level in the road network design and supervision consultancy sector, explore our current job opportunities below.",
    emailText : "You are welcome to send your resume to following email:",
-   email : "info@dlcsgroup.in",
+   email : "tech.designlinepvtltd@gmail.com",
    text : "We will respond to you once there is a suitable opening."
  }
 
