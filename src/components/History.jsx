@@ -100,6 +100,7 @@ Design Line Consultancy Services Private Limited (DLCSPL) is a testament to dedi
         
         {timelineItems.map((item) => (
           <div
+            data-aos="fade-out"
             key={item.id}
             className={`gap-6 mb-8 flex flex-row justify-between items-center w-full ${item.position === "left" ? "md:flex-row-reverse" : ""}`}
           >

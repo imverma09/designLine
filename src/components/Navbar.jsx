@@ -3,10 +3,18 @@ import { navData } from "./data/main";
 import { Link } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { MdMenuOpen } from "react-icons/md";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the CSS file
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      // once: true, // Animation will only happen once
+      easing: 'ease-in-out', // Animation easing
+    });
+  }, []);
 
   // Handle scroll effect
   useEffect(() => {

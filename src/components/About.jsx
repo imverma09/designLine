@@ -30,7 +30,7 @@ const About = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
         </div>
         <div className="relative text-center text-white max-w-4xl px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Building the Future Together</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4" >Building the Future Together</h1>
           <p className="text-xl md:text-2xl">30 Years of Excellence in Consultancy</p>
         </div>
       </div>
@@ -40,17 +40,17 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6" >Our Story</h2>
               <p className="text-gray-600 mb-4">
                 Since 1993, Rode Construction has been at the forefront of innovative building solutions. 
                 What started as a small family business has grown into one of the most trusted names 
                 in commercial and residential construction.
               </p>
-              <p className="text-gray-600 mb-8">
+              <p className="text-gray-600 mb-8" data-aos="flip-left">
                 We combine traditional craftsmanship with cutting-edge technology to deliver projects 
                 that stand the test of time while meeting modern sustainability standards.
               </p>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-600" data-aos="fade-up">
                 <li>✓ 500+ Completed Projects</li>
                 <li>✓ LEED Certified Professionals</li>
                 <li>✓ 24/7 Project Support</li>
@@ -83,11 +83,11 @@ const About = () => {
       {/* CTA Section */}
       <section className="py-16 bg-gray-100">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-6">Ready to Build Your Vision?</h2>
+          <h2 className="text-3xl font-bold mb-6" data-aos="fade-down">Ready to Build Your Vision?</h2>
           <p className="text-gray-600 mb-8">
             Let's discuss how we can bring your construction project to life with expertise and care.
           </p>
-          <Link to={'/contact'} className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+          <Link to={'/contact'} className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors" data-aos="fade-down">
             Get in Touch
           </Link>
         </div>

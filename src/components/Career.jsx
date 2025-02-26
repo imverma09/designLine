@@ -53,7 +53,7 @@ function Career() {
                             </li>
                         ))}
           </ul>
-          <div className="flex w-full border-2">
+          <div className="flex w-full border-2" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
             <img
               src={benefitsSection.img}
               alt="A group of diverse people in a meeting room having a discussion"
@@ -64,7 +64,7 @@ function Career() {
       </section>
       <div className="p-6 md:p-20">
         <div className="border-l-4 border-green-500 pl-4">
-          <p className="text-green-500 font-bold">HIRING</p>
+          <p className="text-green-500 font-bold" data-aos="flip-left">HIRING</p>
         </div>
         <h1 className="text-3xl font-bold mt-2">{jobSection.heading}</h1>
         <p className="mt-4 text-gray-700">
@@ -81,7 +81,7 @@ function Career() {
         <p className="mt-4">
           {jobSection.emailText}
         </p>
-        <a href={`mailto:${jobSection.email}`} className="text-blue-500">
+        <a href={`mailto:${jobSection.email}`} className="text-blue-500" >
           {jobSection.email}
         </a>
         <p className="mt-4">

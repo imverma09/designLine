@@ -12,7 +12,7 @@ function Project() {
       {
         projectData?.map((item) => {
           return(
-            <div className="max-w-sm rounded overflow-hidden shadow-lg" key={Math.random()}>
+            <div className="max-w-sm rounded overflow-hidden shadow-lg" key={Math.random()} data-aos="zoom-in-up">
               <div className="w-full h-60  overflow-hidden">
             <img
               className="w-full h-60 cursor-pointer transform duration-700 hover:scale-110"

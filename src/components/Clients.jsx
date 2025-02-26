@@ -15,6 +15,7 @@ function Clients() {
           <div className="grid gap-3 grid-cols-2 md:grid-cols-4 p-4 justify-center">
             {clientsData?.map((item, index) => (
               <div
+              data-aos="fade-out"
                 key={index}
                 className=" bg-white flex justify-center rounded-lg items-center my-4 sm:my-8 "
               >

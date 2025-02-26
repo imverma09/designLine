@@ -9,7 +9,9 @@ import ProjectDetailPage from "./components/ProjectDetailPage";
 import Career from "./components/Career";
 import History from "./components/History";
 import ProjectDetail from "./components/ProjectDetail";
+
 function App() {
+ 
   return (
     <div className="App">
       <BrowserRouter>

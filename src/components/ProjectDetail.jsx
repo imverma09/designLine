@@ -78,11 +78,11 @@ const ProjectDetail = () => {
               </ul>
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6" data-aos="fade-out">
                 {Challenges.heading}
               </h2>
               <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="bg-gray-50 p-4 rounded-lg" data-aos="fade-out">
                   <h3 className="font-semibold text-gray-800 mb-2">
                    {newData.heading}
                   </h3>
@@ -90,7 +90,7 @@ const ProjectDetail = () => {
                    {Challenges.desc2}
                   </p>
                 </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="bg-gray-50 p-4 rounded-lg" data-aos="fade-out">
                   <h3 className="font-semibold text-gray-800 mb-2">
                     Sustainability Goals
                   </h3>

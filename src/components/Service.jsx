@@ -3,7 +3,7 @@ import { serviceData } from "./data/main";
 import { useNavigate ,Link } from "react-router-dom";
 
 function Service() {
-
+  
   return (
     <section className="w-full h-auto flex flex-col justify-center items-center">
       <div className="w-full p-10  flex justify-center items-center">
@@ -15,7 +15,7 @@ function Service() {
         <div className="w-full p-2 sm:p-0 flex flex-wrap justify-center items-center gap-4 md:gap-8 lg:gap-12 ">
           {serviceData?.map((item) => {
             return (
-              <div key={item.id} class="max-w-sm max-h-sm p-4  border-2 border-gray-800 rounded-lg shadow bg-transparent">
+              <div key={item.id} data-aos="fade-in" class="max-w-sm max-h-sm p-4  bg-gray-200 border-2 border-gray-800 rounded-lg shadow ">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     {item.heading}
                   </h5> 
